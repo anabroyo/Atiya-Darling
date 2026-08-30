@@ -18,7 +18,7 @@ A Taylor-Swift-meets-Y2K friendship website made for GitHub Pages.
 ## Music note
 
 The website uses the official YouTube embed for Taylor Swift's “Love Story”.
-The music starts when the visitor presses **open your letter**, because browsers normally block sound before a user interaction.
+The music starts with full volume when the visitor presses **open your letter**, because browsers normally block sound before a user interaction.
 
 Some browsers, privacy extensions, school/work networks, or countries can block YouTube embeds. If that happens, the rest of the website still works normally.
 
