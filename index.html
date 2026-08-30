@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6b3d1" />
+  <title>For Atiya ♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- FIRST SCREEN -->
+  <section id="landing" class="screen landing">
+    <div class="floating f1">✦</div>
+    <div class="floating f2">♡</div>
+    <div class="floating f3">⋆</div>
+    <div class="floating f4">✧</div>
+
+    <div class="window-card">
+      <div class="window-bar">
+        <span>for_atiya.exe</span>
+        <div class="window-icons"><i></i><i></i><i></i></div>
+      </div>
+
+      <div class="window-content">
+        <p class="mini">♡ a little friendship archive ♡</p>
+        <h1>For Atiya</h1>
+        <p class="subtitle">our own little era, forever</p>
+
+        <div class="cd-wrap" aria-hidden="true">
+          <div class="cd">
+            <div class="cd-hole"></div>
+            <span>LOVE STORY</span>
+          </div>
+        </div>
+
+        <button id="openBtn" class="main-btn">
+          open your letter <span>✦</span>
+        </button>
+
+        <p class="sound-note">♫ turn your sound on</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECOND SCREEN -->
+  <main id="memoryPage" class="memory-page hidden" aria-hidden="true">
+    <div class="top-strip">
+      <div class="ticker">
+        <span>FOR ATIYA ♡ BEST FRIEND ERA ✧ LOVE YOUUUUU ♡ MEMORIES FOREVER ✦</span>
+        <span>FOR ATIYA ♡ BEST FRIEND ERA ✧ LOVE YOUUUUU ♡ MEMORIES FOREVER ✦</span>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">ANUSHA'S VERSION</p>
+        <h2>you’re one of my<br><em>favorite stories ♡</em></h2>
+        <p class="hero-small">classroom chaos • secret books • snacks • stomach-hurting laughter</p>
+      </div>
+
+      <div class="hero-stickers" aria-hidden="true">
+        <span class="sticker heart">♡</span>
+        <span class="sticker star">✦</span>
+        <span class="sticker number">13</span>
+      </div>
+    </header>
+
+    <section class="scrapbook">
+      <figure class="photo polaroid photo-1">
+        <img src="assets/memory-1.jpeg" alt="A friendship memory together">
+        <figcaption>my forever girl ♡</figcaption>
+      </figure>
+
+      <article class="letter">
+        <div class="letter-top">
+          <span>TO: ATIYA</span>
+          <span>FROM: ANUSHA ♡</span>
+        </div>
+
+        <p>
+          hey babe, i love youuuuuuuuuuuuu and i want you to know i cherish you so much that and i apreciate you sticking with me throught all these years and you have made me incredibly happy.
+        </p>
+
+        <p>
+          All the time we spent in the classroom, sneakily reading books and eating snacks while laughing so much till our stomachs ached - those incredible memories will always be in our hearts, and I look forward to making more memories with you.
+        </p>
+
+        <p class="signoff">Mwaaah<br><strong>- Anusha</strong></p>
+      </article>
+
+      <figure class="photo polaroid tilt-right photo-2">
+        <img src="assets/memory-2.jpeg" alt="A friendship selfie together">
+        <figcaption>you + me = chaos</figcaption>
+      </figure>
+
+      <div class="little-note note-1">besties in every universe ✧</div>
+
+      <figure class="photo wide-photo photo-3">
+        <span class="tape tape-left"></span>
+        <span class="tape tape-right"></span>
+        <img src="assets/memory-3.jpeg" alt="A friendship photo together">
+      </figure>
+
+      <div class="mini-card">
+        <p>our friendship archive</p>
+        <span>est. forever ♡</span>
+      </div>
+
+      <figure class="photo polaroid tilt-left photo-4">
+        <img src="assets/memory-4.jpeg" alt="A portrait memory">
+        <figcaption>main character energy ✦</figcaption>
+      </figure>
+
+      <figure class="photo polaroid photo-5">
+        <img src="assets/memory-5.jpeg" alt="Another friendship memory together">
+        <figcaption>to so many more memories ♡</figcaption>
+      </figure>
+
+      <div class="closing">
+        <p class="closing-big">some friendships deserve their own website.</p>
+        <p>this one definitely does. ♡</p>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p>made with too much love by Anusha ♡</p>
+        <small>Love Story — Taylor Swift</small>
+      </div>
+
+      <button id="musicToggle" class="music-btn" type="button">♫ music on</button>
+    </footer>
+  </main>
+
+  <!-- YouTube player. It begins only after the user clicks the first button. -->
+  <div id="player" class="hidden-player" aria-hidden="true"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
